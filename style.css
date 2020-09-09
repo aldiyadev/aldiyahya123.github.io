@@ -95,7 +95,7 @@ ul {
     padding: 0 1rem;
 }
 
-.orange {
+.oren {
     color: #D2342A;
     font-weight: bold;
 }
@@ -183,7 +183,7 @@ ul {
     text-align: center;
 }
 
-.gallery {
+.gallery:nth-child(5) {
     position: relative;
 }
 
@@ -201,7 +201,7 @@ ul {
     margin: 1rem;
 }
 
-.circle-gallery {
+.circle-gallery-iconSvg {
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -223,7 +223,7 @@ ul {
 
 .coach {
     
-    position: relative;
+    position: absolute;
 }
 
 .main-coach {
@@ -244,7 +244,7 @@ ul {
     line-height: 1.8;
 }
 
-.description h1 {
+.description h2 .microsoftEdge {
     font-size: 2rem;
 }
 
@@ -288,6 +288,7 @@ ul {
     background: none;
     width: 100%;
     padding: .5rem 1rem;
+Init();
 }
 
 .contacts-form input:focus {
